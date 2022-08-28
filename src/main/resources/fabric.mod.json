@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pitchfork",
+  "version": "1.0.3",
+  "name": "Pitchfork",
+  "description": "Unlock camera movements, muscle your neck !",
+  "authors": ["craftish37"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.craftish37.pitchfork.client.pitchforkClient"
+    ],
+    "main": [
+      "net.craftish37.pitchfork.pitchfork"
+    ]
+  },
+  "mixins": [
+    "pitchfork.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.craftish37.pitchfork.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "changeDirectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "pitchfork-refmap.json"
+}

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/craftish37/pitchfork/mixin/changeDirectionMixin": {
+      "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/craftish37/pitchfork/mixin/changeDirectionMixin": {
+        "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+      }
+    }
+  }
+}
